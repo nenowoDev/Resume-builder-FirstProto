@@ -1,8 +1,8 @@
 <?php
     $servername ="localhost";
     $username ="root";
-    $password = "root";
-    $db_name ="resumez1";
+    $password = "";
+    $db_name ="resume_builder";
     $conn = new mysqli($servername, $username, $password,$db_name );
 
     if($conn->connect_error)
